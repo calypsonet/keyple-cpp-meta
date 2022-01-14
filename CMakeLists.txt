@@ -43,6 +43,7 @@ INCLUDE(cmake/keyple-plugin-cpp-api.cmake)
 
 INCLUDE(cmake/keyple-util-cpp-lib.cmake)
 INCLUDE(cmake/keyple-plugin-pcsc-cpp-lib.cmake)
+INCLUDE(cmake/keyple-plugin-stub-cpp-lib.cmake)
 INCLUDE(cmake/keyple-service-cpp-lib.cmake)
 INCLUDE(cmake/keyple-service-resource-cpp-lib.cmake)
 INCLUDE(cmake/keyple-card-generic-cpp-lib.cmake)
