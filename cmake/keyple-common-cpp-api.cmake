@@ -31,6 +31,7 @@ FetchContent_Populate (
 	GIT_TAG        ${KEYPLE_VERSION}
 	GIT_SHALLOW    ON
 	SOURCE_DIR     ../externals/${EP_KEYPLE_COMMON}
+	UPDATE_DISCONNECTED ON
 )
 
 ADD_SUBDIRECTORY(externals/${EP_KEYPLE_COMMON})
